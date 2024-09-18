@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\foreign\FNA\FNA.Core.csproj" />
-    <ProjectReference Include="..\..\..\foreign\Gum\MonoGameGum\MonoGameGum.csproj" />
+    <ProjectReference Include="..\..\..\foreign\Gum\MonoGameGum\FnaGum\FnaGum.csproj" />
   </ItemGroup>
 
   <ItemGroup>
