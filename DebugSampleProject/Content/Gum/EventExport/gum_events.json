@@ -49,6 +49,13 @@
         "ElementType": "Screens",
         "EventType": 5,
         "TimestampUtc": "2024-09-18T15:28:14.2582524Z"
+      },
+      {
+        "NewName": "SampleScreen.TextInstance3",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-09-18T22:14:09.2249963Z"
       }
     ]
   }
