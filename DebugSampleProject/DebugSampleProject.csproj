@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Gum\Behaviors\" />
+    <Folder Include="Content\Gum\Components\" />
+    <Folder Include="Content\Gum\EventExport\" />
+    <Folder Include="Content\Gum\FontCache\" />
+    <Folder Include="Content\Gum\Screens\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\foreign\FNA\FNA.Core.csproj" />
+    <ProjectReference Include="..\..\..\foreign\Gum\MonoGameGum\MonoGameGum.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="FAudio.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="FNA3D.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="SDL2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+	<None Update="Content\**\*.*">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>
+
+</Project>

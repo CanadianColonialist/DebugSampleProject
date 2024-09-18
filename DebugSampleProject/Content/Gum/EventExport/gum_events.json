@@ -1,0 +1,55 @@
+{
+  "UserEvents": {
+    "svato": [
+      {
+        "NewName": null,
+        "OldName": "MainMenu",
+        "ElementType": "Screens",
+        "EventType": 1,
+        "TimestampUtc": "2024-09-18T15:27:14.3637048Z"
+      },
+      {
+        "NewName": "DebugScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2024-09-18T15:27:22.7798585Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "DebugScreen",
+        "ElementType": "Screens",
+        "EventType": 1,
+        "TimestampUtc": "2024-09-18T15:27:27.1309883Z"
+      },
+      {
+        "NewName": "SampleScreen",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 0,
+        "TimestampUtc": "2024-09-18T15:27:30.9585573Z"
+      },
+      {
+        "NewName": "SampleScreen.TextInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-09-18T15:28:10.3163241Z"
+      },
+      {
+        "NewName": "SampleScreen.TextInstance1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-09-18T15:28:12.7545196Z"
+      },
+      {
+        "NewName": "SampleScreen.TextInstance2",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-09-18T15:28:14.2582524Z"
+      }
+    ]
+  }
+}
